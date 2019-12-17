@@ -21,4 +21,12 @@ command --  docker run --name mongo -d  -p 27017:27017 mongo
              
  Testing the setup
  
+ 1)
+ --- <aws-ip>:8080/create?firstName=firstnamedemo&lastName=lastnamedemo&age=25
+ We can see one use created
+ 
+ 2)
+ 
  ---https://demo-test.stackroute.io:8099/demo-mongo/getAll
+ 
+ we will get data 
