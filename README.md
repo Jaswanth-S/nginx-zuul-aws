@@ -22,6 +22,7 @@ command --  docker run --name mongo -d  -p 27017:27017 mongo
  Testing the setup
  
  1) url to store data to mongo
+ 
     --- aws-ip:8080/create?firstName=firstnamedemo&lastName=lastnamedemo&age=25
     We can see one use created
  
